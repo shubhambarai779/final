@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage ('new-folder') {
             steps {
-                sh 'mkdir mock-grp3'
+                sh 'mkdir mock-99'
             }
         }
     }
